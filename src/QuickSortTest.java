@@ -4,7 +4,12 @@ import java.util.Optional;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
-
+/**
+ * Класс предназначен для тестирования класса QuickSort.
+ * Метод testSingleElementList() проверяет на наличие одного элемента с сортируемом списке.
+ * Метод testEmptyListElements() проверяет не пустой ли сортируемый список.
+ * Метод testIsSortedList() проверяет  сортирован ли список.
+ */
 public class QuickSortTest {
     @Test
     public void testSingleElementList() {
